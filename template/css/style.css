@@ -1,0 +1,84 @@
+@import url('reset.css');
+
+/** Tags */
+body {
+    font: 16px/24px Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    color: #000;
+    background: #fff
+}
+
+    h1 {
+        font-size: 32px;
+        line-height: 40px
+    }
+    h2 {
+        font-size: 28px;
+        line-height: 36px
+    }
+    h3 {
+        font-size: 24px;
+        line-height: 32px
+    }
+    h4 {
+        font-size: 20px;
+        line-height: 28px
+    }
+    h5 {
+        font-size: 18px;
+        line-height: 26px
+    }
+    h6 {
+        font-size: 16px;
+        line-height: 24px
+    }
+    
+    p {margin: 15px 0}
+    
+    a {
+        text-decoration: underline;
+        color: #4682B4
+    }
+    
+        a:hover {
+            text-decoration: underline;
+            color: #000
+        }
+        
+    a.current {color: #000}
+    
+/** Classes */
+.clear {clear: both}
+    
+/** Layout */
+.wrapper {
+    width: 960px;
+    margin: 2% auto;
+    background: #fff
+}
+
+    header {margin-bottom: 25px}
+
+    nav ul li {
+        display: inline;
+        margin-right: 10px
+    }
+    
+    .main {
+        float: left;
+        width: 700px
+    }
+    
+        .main article {margin: 25px 0}
+        
+            .main article h2 {margin-bottom: 20px}
+    
+    aside {
+        float: right;
+        width: 260px
+    }
+    
+        aside section {margin: 25px 40px}
+        
+            aside section h4 {margin-bottom: 15px}
+            
+            aside section ul li {margin: 5px 0}
